@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kristian Rafer | Student Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link rel="icon" href="assets/Kings Logo.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="assets/Kings Logo.png" sizes="192x192" type="image/png">
+    <link rel="apple-touch-icon" href="assets/Kings Logo.png">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#home">kris<span>.</span>rafer</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-lg-1">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+            <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- hero -->
+      <section id="home" class="py-section">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+              <div class="terminal-box">
+                <div class="terminal-bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <p class="terminal-line comment">// Initializing introduction...</p>
+                <p class="terminal-line comment">// Loading profile...</p>
+                <p class="terminal-line"><span class="t-key">name</span> = <span class="t-str">"Kristian Rafer"</span></p>
+                <p class="terminal-line"><span class="t-key">role</span> = <span class="t-str">"Computer Science Student"</span></p>
+                <p class="terminal-line"><span class="t-fn">print</span>(<span class="t-str">"Bonjour! I'm "</span> + name)</p>
+                <p class="terminal-line terminal-output">&gt; Bonjour! I'm Kristian Rafer</p>
+              </div>
+
+              <p class="hero-text">
+                I'm a college student who likes figuring out how things work by actually building them.
+                This site is where I keep track of school activities, projects, major exams, and quizzes.
+              </p>
+
+              <a href="#activities" class="btn btn-accent">View My Activities</a>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="hero-photo">
+                <img src="assets/profile.jpg" alt="Photo of Kristian Rafer" />
+              </div>
+              <p class="photo-caption">currently drinking too much coffee and learning how to fight jealousy</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section id="about" class="py-section section-alt">
+        <div class="container">
+          <p class="tag-label">// about me</p>
+          <h2 class="section-title">A little bit about me</h2>
+
+          <div class="row g-3 mt-2">
+            <div class="col-md-6">
+              <div class="info-block">
+                <i class="bi bi-person"></i>
+                <div>
+                  <small>Name</small>
+                  <strong>Kristian Rafer</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-block">
+                <i class="bi bi-mortarboard"></i>
+                <div>
+                  <small>Course</small>
+                  <strong>BS Computer Science</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-8">
+              <div class="info-block">
+                <i class="bi bi-building"></i>
+                <div>
+                  <small>School</small>
+                  <strong>Cavite State University - Silang Campus</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info-block">
+                <i class="bi bi-bookmark"></i>
+                <div>
+                  <small>Year Level</small>
+                  <strong>3rd Year</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="info-block">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <small>Location</small>
+                  <strong>Cavite, Philippines</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-block">
+                <i class="bi bi-code-slash"></i>
+                <div>
+                  <small>Skills</small>
+                  <strong>HTML · CSS · JavaScript · Bootstrap · Java · Python · MySQL</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="info-block info-block-wide">
+                <i class="bi bi-stars"></i>
+                <div>
+                  <small>Interests</small>
+                  <div class="tag-list">
+                    <span>web dev</span>
+                    <span>UI tinkering</span>
+                    <span>badminton</span>
+                    <span>anime</span>
+                    <span>oldies playlists</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- activities -->
+      <section id="activities" class="py-section">
+        <div class="container">
+          <p class="tag-label">// school activities</p>
+          <h2 class="section-title">Stuff I've submitted so far</h2>
+          <p class="section-sub">Quizzes, activities, and exams, organized so I (and my professors) can find things quickly.</p>
+
+          <div class="filter-bar" role="group" aria-label="Filter activities">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="quizzes">Quizzes</button>
+            <button class="filter-btn" data-filter="activities">Activities</button>
+            <button class="filter-btn" data-filter="midterms">Midterms</button>
+            <button class="filter-btn" data-filter="finals">Finals</button>
+          </div>
+
+          <div class="row g-3 activity-grid" id="activityGrid"></div>
+        </div>
+      </section>
+
+      <!-- socials -->
+      <section id="socials" class="py-section section-alt">
+        <div class="container">
+          <p class="tag-label">// find me elsewhere</p>
+          <h2 class="section-title">Let's stay connected</h2>
+
+          <div class="social-row">
+            <a href="https://facebook.com/raferkris" target="_blank" rel="noreferrer" class="social-link">
+              <i class="bi bi-facebook"></i> Facebook
+            </a>
+            <a href="https://instagram.com/rfrkrs" target="_blank" rel="noreferrer" class="social-link">
+              <i class="bi bi-instagram"></i> Instagram
+            </a>
+            <a href="https://discord.com/users/ra4kris" target="_blank" rel="noreferrer" class="social-link">
+              <i class="bi bi-discord"></i> Discord
+            </a>
+            <a href="https://github.com/rfrkrs" target="_blank" rel="noreferrer" class="social-link">
+              <i class="bi bi-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact" class="py-section">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-12">
+              <p class="tag-label">// get in touch</p>
+              <h2 class="section-title">Say hello</h2>
+              <p class="section-sub">Got feedback on a project, a group work invite, or just want to say hi? My inbox is open.</p>
+              <a class="contact-email d-inline-block" href="mailto:raferkristian28@gmail.com"><i class="bi bi-envelope"></i> raferkristian28@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <p class="mb-0">Student Portfolio | © 2026 Kristian Rafer</p>
+        <div class="footer-links">
+          <a href="https://github.com/rfrkrs" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://instagram.com/rfrkrs" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#contact" aria-label="Contact"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+    <!-- proof modal -->
+    <div class="modal fade" id="activityModal" tabindex="-1" aria-labelledby="activityModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="activityModalLabel">Activity</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img id="modalImg" src="" alt="Activity proof" class="modal-img" style="display: none;" />
+            <div id="modalPlaceholder" class="modal-placeholder" style="display: none;">
+              <i class="bi bi-image"></i>
+              <span>Proof Not Yet Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
